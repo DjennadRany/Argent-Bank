@@ -1,0 +1,38 @@
+.transactions {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .transaction-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .transaction {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e3e3e3;
+  }
+  
+  .transaction:last-child {
+    border-bottom: none;
+  }
+  
+  .transaction-date,
+  .transaction-description,
+  .transaction-amount,
+  .transaction-balance {
+    padding: 0.5rem;
+  }
+  
+  .transaction-amount.positive {
+    color: #00bfa5;
+  }
+  
+  .transaction-amount.negative {
+    color: #f44336;
+  }
